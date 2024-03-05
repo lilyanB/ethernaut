@@ -71,6 +71,11 @@ $ cast --help
 source .env
 
 forge script script/Level00.s.sol:Level00 --rpc-url ${RPC_SEPOLIA}
-forge script script/Level01.s.sol:Level01 --rpc-url ${RPC_SEPOLIA}
-forge script script/Level02.s.sol:Level02 --rpc-url ${RPC_SEPOLIA}
+
+forge script script/Level01.s.sol:Level01 --broadcast --rpc-url ${RPC_SEPOLIA}
+
+forge script script/Level02.s.sol:Level02 --broadcast --rpc-url ${RPC_SEPOLIA}
+
+forge script script/Level03.s.sol:Deploy --broadcast --rpc-url ${RPC_SEPOLIA}
+forge script script/Level03.s.sol:Level03 --broadcast --rpc-url ${RPC_SEPOLIA}
 ```
