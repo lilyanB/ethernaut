@@ -83,4 +83,6 @@ forge script script/Level04.s.sol:Deploy --broadcast --rpc-url ${RPC_SEPOLIA}
 forge script script/Level04.s.sol:Level04 --broadcast --rpc-url ${RPC_SEPOLIA}
 
 forge script script/Level05.s.sol:Level05 --broadcast --rpc-url ${RPC_SEPOLIA}
+
+forge script script/Level06.s.sol:Level06 --broadcast --rpc-url ${RPC_SEPOLIA}
 ```
