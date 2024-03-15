@@ -116,4 +116,6 @@ forge script script/Level19.s.sol:Level19 --broadcast --rpc-url ${RPC_SEPOLIA}
 forge script script/Level20.s.sol:Level20 --broadcast --rpc-url ${RPC_SEPOLIA}
 
 forge script script/Level21.s.sol:Level21 --broadcast --rpc-url ${RPC_SEPOLIA}
+
+forge script script/Level22.s.sol:Level22 --broadcast --rpc-url ${RPC_SEPOLIA}
 ```
