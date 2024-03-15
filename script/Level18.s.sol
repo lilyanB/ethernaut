@@ -24,7 +24,7 @@ contract Level18 is Script {
 
         // return value from memory:
         // push in the stack where RETURN can find the value + number of bytes
-        // PUSH1 32 bytes - 0x60 --> PUSH1(0x32) --> 0x6020 (Pushing an arbitrarily selected memory slot 24)
+        // PUSH1 32 bytes - 0x60 --> PUSH1(0x32) --> 0x6020 (pushing number of bytes of the value was stored in memory)
         // PUSH1 slot 24 - 0x60 --> PUSH1(0x24) --> 0x6018 (Pushing an arbitrarily selected memory slot 24)
         // RETURN - 0xF3 --> RETURN --> 0xf3 (Return 32 bytes from memory at slot 24)
 
